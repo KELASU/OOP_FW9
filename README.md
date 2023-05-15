@@ -7,19 +7,19 @@ A large company with locations in different cities has taken an OOP approach in 
 
  
 
-#1.
-##(a) By making use of an example from the above scenario, distinguish between a class and an instantiation of a class. (3 points)
+# 1.
+## (a) By making use of an example from the above scenario, distinguish between a class and an instantiation of a class. (3 points)
 
-##The different modules in the program each open a graphical user interface (GUI). Each GUI has a similar design but contains differences specific to each module.
+## The different modules in the program each open a graphical user interface (GUI). Each GUI has a similar design but contains differences specific to each module.
 
-##(b) By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program. (4 points)
+## (b) By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program. (4 points)
 
-##(c) Describe how the use of libraries can facilitate the development of programs like this company’s administration program. (3 points)
+## (c) Describe how the use of libraries can facilitate the development of programs like this company’s administration program. (3 points)
 
 
 
-#2. 
-##The company employs several sales personnel to sell its products to different retailers. Each branch of the company keeps track of its own sales with a suite of programs that include the two classes SalesPerson and Sales.
+# 2. 
+## The company employs several sales personnel to sell its products to different retailers. Each branch of the company keeps track of its own sales with a suite of programs that include the two classes SalesPerson and Sales.
 
  
 
@@ -91,11 +91,11 @@ public Sales largestSale(){
 
  
 
-##Each instance variable is initialized when a SalesPerson object is instantiated.
+## Each instance variable is initialized when a SalesPerson object is instantiated.
 
-##(a) Complete the constructor public SalesPerson(String id), from the SalesPerson class. (2 points)
+## (a) Complete the constructor public SalesPerson(String id), from the SalesPerson class. (2 points)
 
-##(b) Explain why accessor methods are necessary for the SalesPerson class. (3 points)
+## (b) Explain why accessor methods are necessary for the SalesPerson class. (3 points)
 
  
 
@@ -119,11 +119,11 @@ public int getQuantity() {return quantity;}
 
  
 
-##(c) (i) Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and Sales classes.
+## (c) (i) Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and Sales classes.
 
 Note: There is no need to include mutator or accessor methods or a constructor. (4 points)
 
-##(c) (ii) Outline a negative effect that a future change in the design of the Sales object might have on this suite of programs. (2 points)
+## (c) (ii) Outline a negative effect that a future change in the design of the Sales object might have on this suite of programs. (2 points)
 
  
 
@@ -155,17 +155,17 @@ System.out.println(salesPeople[0].calcTotalSales());
 
  }
 
-##(d) State the output after running this code. (4 points)
+## (d) State the output after running this code. (4 points)
 
-##(e) Construct the method calcTotalSales(), in the SalesPerson class that calculates the total value of the sales for a specific SalesPerson object. (5 points)
+## (e) Construct the method calcTotalSales(), in the SalesPerson class that calculates the total value of the sales for a specific SalesPerson object. (5 points)
 
  
 
 The salesPeople array contains 100 instantiated objects. The company wishes to reward the salesperson whose sales have the largest total value.
 
-##(f) By making use of any previously written methods, construct the method highest(), that returns the ID of the salesperson whose sales have the largest total value. (5 points)
+## (f) By making use of any previously written methods, construct the method highest(), that returns the ID of the salesperson whose sales have the largest total value. (5 points)
 
-##(g) Construct the method addSales(Sales s, String id), in the Driver class, that will add a new Sales object s, to the salesperson with a specified ID.
+## (g) Construct the method addSales(Sales s, String id), in the Driver class, that will add a new Sales object s, to the salesperson with a specified ID.
 
 Note: You can assume that the ID is a valid one. (4 points)
 
@@ -173,7 +173,7 @@ Note: You can assume that the ID is a valid one. (4 points)
 
 A further class in this suite of programs is the Payroll class. This class is run at the end of each month to calculate each salesperson’s salary, which is based on the sales that have been made during that month.
 
-##(h) Suggest changes that must be made to the SalesPerson class and/or the Sales class to allow these calculations to be made. (3 points)
+## (h) Suggest changes that must be made to the SalesPerson class and/or the Sales class to allow these calculations to be made. (3 points)
 
-##(i) Discuss the use of polymorphism that occurs in this suite of programs. (3 points)
+## (i) Discuss the use of polymorphism that occurs in this suite of programs. (3 points)
 
