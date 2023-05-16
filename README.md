@@ -36,15 +36,7 @@
 
 ### (c) **Describe how the use of libraries can facilitate the development of programs like this company’s administration program.**
 
-*Libraries*: They are pre-existing tools that make programming easier. Here's how libraries help in the administration program:
-
-Reusability: Libraries provide ready-made code that we can reuse instead of writing everything from scratch. It saves time and effort.
-
-Abstraction: Libraries hide complex details and provide simplified functions to use. We don't need to know how they work internally, just how to use them.
-
-Enhanced Functionality: Libraries offer extra features beyond the programming language's capabilities. For example, they can provide advanced charts or database handling, improving the program's functionality.
-
-
+Libraries can be a way to help company develope their programs much faster and will be less costly, because, creating and developing everything from scratch is time consuming, takes alot of effort and may be costly. But with libraries as there is already pre existing methods we don't need to spend a lot of time on methods like math, making a linked list and etc.
 
 ### **2. The company employs several sales personnel to sell its products to different retailers. Each branch of the company keeps track of its own sales with a suite of programs that include the two classes SalesPerson and Sales.**
 
